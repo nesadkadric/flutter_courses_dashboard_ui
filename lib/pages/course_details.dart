@@ -90,7 +90,7 @@ class _CourseDetailsState extends State<CourseDetails> {
                       leading: Container(
                         padding: EdgeInsets.fromLTRB(10, 10, 0, 10),
                         child: Text(
-                          '$index',
+                          '${index+1}',
                           style: TextStyle(
                             color: Theme.of(context).primaryColor,
                             fontSize: 18,
